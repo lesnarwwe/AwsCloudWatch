@@ -1,0 +1,29 @@
+{
+	"Env":"Prod",
+	"CPU_Threshold":0.1,
+        "CPU_Period":180,
+        "CPU_EvaluationPeriods":1,
+	"DiskReadOps_Threshold":0.1,
+        "DiskReadOps_Period":180,
+        "DiskReadOps_EvaluationPeriods":1,
+        "DiskWriteOps_Threshold":0.1,
+        "DiskWriteOps_Period":180,
+        "DiskWriteOps_EvaluationPeriods":1,
+        "NetworkIn_Threshold":0.1,
+        "NetworkIn_Period":180,
+        "NetworkIn_EvaluationPeriods":1,
+        "NetworkPacketsIn_Threshold":0.1,
+        "NetworkPacketsIn_Period":180,
+        "NetworkPacketsIn_EvaluationPeriods":1,
+        "NetworkPacketsOut_Threshold":0.1,
+        "NetworkPacketsOut_Period":180,
+        "NetworkPacketsOut_EvaluationPeriods":1,
+	"StatusCheckFailed_Period":180,
+	"StatusCheckFailed_EvaluationPeriods":1,
+	"StatusCheckFailed_Instance_Period":180,
+	"StatusCheckFailed_Instance_EvaluationPeriods":1,
+	"StatusCheckFailed_System_Period":180,
+	"StatusCheckFailed_System_EvaluationPeriods":1
+
+              
+}
